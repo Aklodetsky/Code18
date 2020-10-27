@@ -8,4 +8,14 @@ div{
     display: flex;
     flex-direction: column;
 }
+.mainlayout {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.media .image {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: blanchedalmond;
+}
 }
